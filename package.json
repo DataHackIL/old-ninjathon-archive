@@ -1,5 +1,5 @@
 {
-  "name": "Ninjathon",
+  "name": "ninjathon",
   "version": "0.0.1",
   "description": "Hackathon Management System",
   "main": "index.js",
@@ -13,6 +13,7 @@
     "babel-preset-react": "^6.24.1",
     "chai": "^4.1.1",
     "clean-webpack-plugin": "^0.1.16",
+    "concurrently": "^3.5.0",
     "coveralls": "^2.13.1",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.5",
@@ -36,14 +37,17 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server",
-    "test": "mocha-webpack --webpack-config webpack.config.test.js --recursive \"src/**/*.test.js\" test",
+    "start-dev": "concurrently --kill-others --success first \"webpack --progress --watch\" \"hz serve --dev\"",
+    "deploy": "webpack && hz create-cert && hz serve",
+    "test": "concurrently --kill-others --success first \"hz serve --dev\" \"mocha-webpack --webpack-config webpack.config.test.js --recursive \"src/**/*.test.js\" test\"",
     "coverage": "cross-env NODE_ENV=coverage nyc --reporter=lcov --reporter=text yarn test",
     "publish-coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
+    "@horizon/client": "^2.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-hz": "^0.4.0",
     "react-router-dom": "^4.1.2"
   },
   "nyc": {

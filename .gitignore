@@ -56,3 +56,9 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Project specific
+rethinkdb_data/
+dist/
+secrets.toml
+key.pem

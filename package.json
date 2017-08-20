@@ -39,11 +39,12 @@
     "start": "webpack-dev-server",
     "test": "mocha-webpack --webpack-config webpack.config.test.js --recursive \"src/**/*.test.js\" test",
     "coverage": "cross-env NODE_ENV=coverage nyc --reporter=lcov --reporter=text yarn test",
-		"publish-coverage": "cat ./coverage/lcov.info | coveralls"
+    "publish-coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2"
   },
   "nyc": {
     "include": [

@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# set data members
-export GIT_URL=https://github.com/shakedlokits/ninjathon.git
-export GIT_BRANCH=master
-
 # kill running proccesses
 array=( rethinkdb horizon node )
 for proc in "${array[@]}"
@@ -30,15 +26,4 @@ if [ ! -f ./.dependenciesInstalled ]; then
 	# set flag after successful installation
 	touch ./.dependenciesInstalled
 fi
-
-# re-fetch the repository
-sudo rm -rf ./ninjathon
-git clone -b $GIT_BRANCH $GIT_URL
-
-# build project
-cd ninjathon
-yarn
-
-# initialize server
-screen -dm yarn deploy
 exit;

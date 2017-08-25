@@ -6,7 +6,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <p>It works!</p>
+				{/* These are the router link and switch
+					to change scenes and route URL */}
 				<Link to='/test-component'>To Test Component!</Link>
         <Switch>
           <Route exact path='/test-component' component={TestComponent}/>

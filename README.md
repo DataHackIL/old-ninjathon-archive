@@ -1,6 +1,8 @@
 # Ninjathon⚡👓
 [![Build Status](https://travis-ci.org/DataHackIL/ninjathon.svg?branch=master)](https://travis-ci.org/DataHackIL/ninjathon)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1cd12b3745b45b981848ab96736c317)](https://www.codacy.com/app/shaked-lokits/ninjathon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DataHackIL/ninjathon&amp;utm_campaign=Badge_Grade)[![Dependency Status](https://david-dm.org/DataHackIL/ninjathon.svg)](https://david-dm.org/DataHackIL/ninjathons)[![devDependency Status](https://david-dm.org/DataHackIL/ninjathon/dev-status.svg)](https://david-dm.org/DataHackIL/ninjathon#info=devDependencies)[![Coverage Status](https://coveralls.io/repos/github/DataHackIL/ninjathon/badge.svg?branch=master)](https://coveralls.io/github/DataHackIL/ninjathon?branch=master)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1cd12b3745b45b981848ab96736c317)](https://www.codacy.com/app/shaked-lokits/ninjathon?utm_source=github.com&utm_medium=referral&utm_content=DataHackIL/ninjathon&utm_campaign=badger)
+
 The all-in-one hackathon management platform, from registration to communications and voting!
 
 ## Getting Started

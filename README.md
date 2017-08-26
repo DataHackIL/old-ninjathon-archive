@@ -1,5 +1,7 @@
 # Ninjathon⚡👓
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1cd12b3745b45b981848ab96736c317)](https://www.codacy.com/app/shaked-lokits/ninjathon?utm_source=github.com&utm_medium=referral&utm_content=DataHackIL/ninjathon&utm_campaign=badger)
+
 The all-in-one hackathon management platform, from registration to communications and voting!
 
 ## Getting Started

@@ -159,7 +159,6 @@ We use [SemVer](http://semver.org/) for versioning.
 * **Shaked Lokits** - *Current Maintainer* - [shakedlokits](https://github.com/shakedlokits)
 * **Tomer Omri** - *Original Contributor* - [tomz](https://github.com/TomerOmri)
 * **Eden Swissa** - *Original Contributor* - [edenswi67](edenswi67@gmail.com)
-* **Dany Shaanan** - *Contributor* - [danyshaanan](https://github.com/danyshaanan)
 
 ## License
 
